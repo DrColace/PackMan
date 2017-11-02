@@ -12,4 +12,4 @@ PackMan is a meta package manager for macOS.
   - [ ] RubyGems (Ruby)
 - [ ] Manage global and local packages
 - [ ] Check for updates: All, or for individual packages/projects
-- [ ] Apply updates All, or for individual packages/projects
+- [ ] Apply updates: All, or for individual packages/projects
