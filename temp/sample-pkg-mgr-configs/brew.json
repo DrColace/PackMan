@@ -1,0 +1,17 @@
+{
+    "name": "Homebrew",
+    "global": "true",
+    "local": "false",
+    "functions": [
+        "checkIfExists", {
+            "command": "brew",
+            "stringMatchSuccess": "Example usage:"
+        },
+        "update", {
+            "command": "brew update"
+        },
+        "upgrade", {
+            "command": "brew upgrade"
+        }
+    ]
+}
