@@ -1,0 +1,27 @@
+{
+    "name": "pip",
+    "global": "true",
+    "local": "false",
+    "functions": [
+        "checkIfExists", {
+            "command": "pip",
+            "stringMatchSuccess": ""
+        },
+        "update", {
+            "command": "",
+            "comment": "pip has no built-in way to check for updates for all packages, so this will need to call a script."
+        },
+        "updateOne", {
+            "command": "pip install [pkg-name] --upgrade",
+            "comment": "Updates single package."
+        },
+        "updateAll", {
+            "command": "",
+            "comment": "Update all packages. pip has no built-in way to upgrade all packages, so this will need to call a script."
+        },
+        "handleAfterUpdate", {
+            "command": "",
+            "comment": "Called after updates."
+        }
+    ]
+}

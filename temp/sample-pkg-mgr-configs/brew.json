@@ -8,10 +8,20 @@
             "stringMatchSuccess": "Example usage:"
         },
         "update", {
-            "command": "brew update"
+            "command": "brew update",
+            "comment": "Updates Homebrew forumlas."
         },
-        "upgrade", {
-            "command": "brew upgrade"
+        "updateOne", {
+            "command": "brew upgrade [pkg-name]",
+            "comment": "Updates single package."
+        },
+        "updateAll", {
+            "command": "brew upgrade",
+            "comment": "Updates all packages."
+        },
+        "handleAfterUpdate", {
+            "command": "",
+            "comment": "Called after updates."
         }
     ]
 }
